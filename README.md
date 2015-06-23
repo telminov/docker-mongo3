@@ -2,7 +2,7 @@
 
 Build
 ```
-docker build -t telminov:mongo3 .
+docker build -t telminov/mongo3 .
 ```
 
 Run interactive
