@@ -1,7 +1,3 @@
-# docker build -t telminov:mongo3 .
-# docker run -ti --rm --name=mongo3 -h mongo3 -p 27017:27017 -v /var/docker/mongo3/data:/data/db telminov/mongo3
-# docker run -d --name=mongo3 -h mongo3 -p 27017:27017 -v /var/docker/mongo3/data:/data/db telminov/mongo3
-
 FROM ubuntu:14.04
 MAINTAINER telminov@soft-way.biz
 
